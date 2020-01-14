@@ -7,15 +7,21 @@
       "description": "An example category"
     },
     {
-      "id": 2,
-      "name": "test1",
-      "display_name": "test2",
-      "description": "test3"
+      "name": "PUTtest",
+      "display_name": "PUTtest Display",
+      "description": "PUTtest Description",
+      "id": 2
+    },
+    {
+      "{name": "POSTtest,",
+      "display_name": "POSTtest Display,",
+      "description": "POSTtest description}",
+      "id": 3
     }
   ],
   "products": [
     {
-      "_id": 1,
+      "id": 1,
       "category": "test category for products",
       "name": "product tester",
       "display_name": "display name for product test",

@@ -11,12 +11,6 @@
       "display_name": "PUTtest Display",
       "description": "PUTtest Description",
       "id": 2
-    },
-    {
-      "{name": "POSTtest,",
-      "display_name": "POSTtest Display,",
-      "description": "POSTtest description}",
-      "id": 3
     }
   ],
   "products": [

@@ -1,0 +1,183 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Lab 06",
+    "description": "Swagger Docs",
+    "version": "0.1"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:3000"
+    }
+  ],
+  "paths": {
+    "/categories/1": {
+      "get": {
+        "description": "See the category with id 1",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                },
+                "examples": {}
+              }
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "http://localhost:3000"
+          }
+        ]
+      },
+      "servers": [
+        {
+          "url": "http://localhost:3000"
+        }
+      ]
+    },
+    "/categories/2": {
+      "get": {
+        "description": "See the category with id 2",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                },
+                "examples": {}
+              }
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "http://localhost:3000"
+          }
+        ]
+      },
+      "servers": [
+        {
+          "url": "http://localhost:3000"
+        }
+      ]
+    },
+    "/products/1": {
+      "get": {
+        "description": "See the product with ID 1",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                },
+                "examples": {}
+              }
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "http://localhost:3000"
+          }
+        ]
+      },
+      "servers": [
+        {
+          "url": "http://localhost:3000"
+        }
+      ]
+    },
+    "/": {
+      "get": {
+        "description": "Root level URL",
+        "responses": {
+          "200": {
+            "description": "No response here",
+            "content": {
+              "text/html; charset=UTF-8": {
+                "schema": {
+                  "type": "string"
+                },
+                "examples": {}
+              }
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "http://localhost:3000"
+          }
+        ]
+      },
+      "servers": [
+        {
+          "url": "http://localhost:3000"
+        }
+      ]
+    },
+    "/categories": {
+      "get": {
+        "description": "See all categories",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                },
+                "examples": {}
+              }
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "http://localhost:3000"
+          }
+        ]
+      },
+      "servers": [
+        {
+          "url": "http://localhost:3000"
+        }
+      ]
+    },
+    "/products": {
+      "get": {
+        "description": "See all products",
+        "responses": {
+          "200": {
+            "description": "Successfully reach list of all products",
+            "content": {
+              "application/json; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                },
+                "examples": {}
+              }
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "http://localhost:3000"
+          }
+        ]
+      },
+      "servers": [
+        {
+          "url": "http://localhost:3000"
+        }
+      ]
+    }
+  }
+}

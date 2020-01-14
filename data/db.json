@@ -20,6 +20,9 @@
       "name": "product tester",
       "display_name": "display name for product test",
       "description": "description for product test"
+    },
+    {
+      "id": 2
     }
   ]
 }

@@ -10,8 +10,8 @@ server.use(jsonServer.rewriter({
   '/api/v1/*':'/$1',
   '/api/v1/*/*':'/$1/$2'
 }))
-server.use(router);
 server.use(jsonServer.bodyParser);
+server.use(router);
 
 router.render = (req, res) => {
   res.status(200).jsonp({

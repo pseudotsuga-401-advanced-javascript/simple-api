@@ -11,6 +11,12 @@
       "display_name": "PUTtest Display",
       "description": "PUTtest Description",
       "id": 2
+    },
+    {
+      "id": 3,
+      "name": "boats",
+      "description": "nice",
+      "display_name": "really nice"
     }
   ],
   "products": [

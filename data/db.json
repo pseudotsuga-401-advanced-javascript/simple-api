@@ -1,0 +1,31 @@
+{
+  "categories": [
+    {
+      "id": 3,
+      "name": "boats",
+      "description": "nice",
+      "display_name": "really nice"
+    },
+    {
+      "name": "another example",
+      "display_name": "you already know",
+      "description": "the test that keeps on giving",
+      "id": 4
+    },
+    {
+      "name": "car",
+      "display_name": "cars object",
+      "description": "four wheels and the heart of a wild mustang",
+      "id": 5
+    }
+  ],
+  "products": [
+    {
+      "name": "shiny car",
+      "category": "cars",
+      "display_name": "hot wheels",
+      "description": "rubber burner",
+      "id": 3
+    }
+  ]
+}

@@ -1,11 +1,13 @@
 'use strict';
 
 const jsonServer = require('json-server');
+const cors = require('cors');
 const server = jsonServer.create();
 const router = jsonServer.router('./data/db.json');
 const middleWares = jsonServer.defaults();
 
 server.use(middleWares);
+server.use(cors());
 server.use(jsonServer.rewriter({
   '/api/v1/*':'/$1',
   '/api/v1/*/*':'/$1/$2'
